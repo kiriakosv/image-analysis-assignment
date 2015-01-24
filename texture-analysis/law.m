@@ -1,4 +1,4 @@
-function energymap=law(Image)
+function law(Image)
     
     clc
     Image = imread(Image);
@@ -115,8 +115,4 @@ function energymap=law(Image)
     
     subplot(3, 3, 9)
     imshow(uint8(fe9))
-    
-   
-    
-    energymap = [];
     
